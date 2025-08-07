@@ -9,7 +9,7 @@ terraform {
   }
   backend "gcs" {
     bucket = "terraform-state-mydeen"
-    prefix = "statefiles/network"
+    prefix = "statefiles/bucket"
   }  
 }
 
